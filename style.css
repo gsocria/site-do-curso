@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
    margin: 0;
@@ -8,9 +8,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+   
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .btn {
@@ -35,6 +37,14 @@ a {
     font-weight: bold;
     text-align: center;
     padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+.headline-1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 180px;
     letter-spacing: 2px;
 }
 
@@ -75,7 +85,7 @@ a {
 /* showcase */
 
 #showcase {
-    height: 95vh;
+    height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -151,6 +161,110 @@ a {
  .feature p{
   margin: 10px;
  }
+
+ #product {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background: #eee;
+ }
+
+#slider {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 30vw;
+    max-height: 150px;
+
+    position: center;
+}
+
+#slider img{
+
+    opacity: 0;
+    display: flex;
+   
+    position: absolute;
+    width: 998px;
+    height: 450px;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected {
+  opacity: 1;
+}
+
+.testemunhas {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+#testemunhas {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+
+}
+
+#testemunhas-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.testemunhas .testemunha-imagem {
+    height: 170px;
+    width: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+#gallery {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.gallery-imagem {
+    display: inline-block;
+    width: 370px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#footer {
+    background: #222;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+
+    
+
+
+   
+   
+
+
   
  
  
