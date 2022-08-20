@@ -98,3 +98,62 @@ a {
     padding-bottom: 10px 0;
  }
 
+ /* clientes */
+
+ #clients { 
+      width: 100%;
+      background: #eee;
+      color: #111;
+      padding: 50px;
+ }
+
+ .clients-container {
+    width: 95%;
+    display: inline-flex;
+    grid-template-columns: repeat (4, 1fr) ;
+    justify-content: center;
+    padding: 15px;
+
+ }
+ 
+ .client {
+    display: inline-block;
+    width: 25%;
+ }
+
+ /* about */
+
+ #features {
+  width: 100%;
+  background: #222;
+  color: #eee;
+  padding: 50px;
+ }
+
+ #features-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 50px;
+ }
+
+ .feature {
+  width: 100%;
+  grid: 100px;
+  display: inline;
+  flex-direction: column;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+ }
+
+ .feature p{
+  margin: 10px;
+ }
+  
+ 
+ 
+
+
+ 
