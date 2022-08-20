@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width 768px)" href="css/mobile.css">
     <title>Descarte Aqui</title>
 </head>
 <body>
 
      <nav id="navbar">
          <div id="navbar-container">
-            <h1 class="logo"></h1>
+            <h1 class="logo">Descarte Aqui</h1>
             <ul id="navbar-itens">
-                <li>Contato</li>
-                <li>Parcerias</li>
-                <li>Nossa História</li>
-                <li>Produtos</li>
+                <li><a href="#features">Sobre</a></li>
+                <li><a href="#clients">Parcerias</a></li>
+                <li><a href="#product">Produtos</a></li>
+                <li><a href="#gallery">Galeria</a></li>
             </ul>
-        </div>
-    
+        
     </nav>
     
     <header id="showcase">
-        <div id="showcase-container">
+     <div id="showcase-container">
            <h2> <img src="./img/descarteaqui.png" alt=""> </h2>
             <a href="" class="btn"> Saiba Mais </a>
         </div>
     </header>
+
+    
     <!--abount-->
     <section id="clients">
         <div class="headline"> Parceiros </div>
@@ -64,10 +66,15 @@
     </section>
 
      <section id="product">
-        <div class="headline">Nosso Produto</div>
-        <div id="product-container">
-            <img src="./img/e309bf2e-835c-42a6-99d6-7d599fc6a610.png" alt="" class="logo-baixa">
-            <div id="items">
+        <div class="headline-1">Nossos Produtos</div>
+        <div id="slider">
+            <img class="selected" src="./img/tora-img.avif" alt="Image1">
+            <img src="./img/mdf-image.avif" alt="Image2">
+            <img src="./img/serragem-img.avif" alt="Image3">
+            <img src="./img/moveis-img.avif" alt="Image4"> 
+        
+
+            <!-- <div id="items">
                 <div class="item">
                     <i class="fa-solid fa-tree fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
@@ -84,21 +91,25 @@
                     <i class="fas fa-layer-group fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
+
+        <script src="script.js"></script>
+
+
     </section>
 
     <div id="testemunhas">
         <div class="headline"> Oque acham de nós </div>
         <div id="testemunhas-container">
             <div class="testemunhas">
-                <img src="./img/persona 1.jpg" alt="" class="testemunha-imagem">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <img src="./img/person-1.jpeg" alt="" class="testemunha-imagem">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
-        </div>
+        
             <div class="testemunhas">
-                <img src="./img/persona 2.jpg" alt="" class="testemunha-imagem">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <img src="./img/person-2.jpeg" alt="" class="testemunha-imagem">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
         </div>
     </div>
@@ -113,11 +124,12 @@
             <img src="./img/image-5.jpeg" alt="" class="gallery-imagem">
             <img src="./img/image-6.jpeg" alt="" class="gallery-imagem">
         </div>
-    </section>  -->
+    </section>  
 
-    <foller id="foller">
-        <p>SENAI 2022 </p>
-    </foller>
+    <footer id="footer">
+        <p> SENAI 2022 </p>
+        <p> Guilherme Gonçalves</p>
+    </footer>
 
 <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1b60912f0e.js" crossorigin="anonymous"></script>
