@@ -20,6 +20,11 @@
 
 } 
 
+.img {
+    width: 90%;
+    text-align: center;
+}
+
 .clients-container {
     grid-template-columns: repeat(2, 1fr);}
 
@@ -46,6 +51,6 @@
    grid-template-columns: 1fr
 }
 
-.gallery-container {
+.gallery-imagem {
     width: 100%;
 }
